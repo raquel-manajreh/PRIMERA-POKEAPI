@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./images/desktop-wallpaper-pokemon-cute-baby-pokemon.jpg');
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align:right;
+    margin-right: 200px;
+    font-size: 60px;
+    font-family: 'Pokemon Solid', sans-serif;
+    color: rgb(228, 148, 0);
+}
+.mobile-image{ /*IMÁGEN DEL MOVIL SOLO*/
+    margin-top: -170px;
+    margin-left: -100px;
+    height: 730px;
+    width: 800px;
+}
+.container{
+    position: relative;
+}
+.menu{
+    position: absolute;
+    top:-60px;
+    left: 225px;
+}
+button{
+    background-color: white;
+    border: none;
+}
+.pokeball-img{
+    height: 150px;
+    width: 150px;
+}
+    .pokeball-img:hover{
+    transform: scale(1.3);
+    }
+
+
+.menu-list{
+    display:none;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pokedex{
+    background-color: rgb(251, 205, 119);
+    border: 2px solid rgb(252, 172, 25);
+    border-radius: 35px;
+    font-size: 40px;
+    padding:20px;
+    margin:10px 0px 10px 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+    .pokedex:hover{
+    background-color: rgb(235, 180, 78);
+    transform: scale(1.12);
+    }
+
+
+.types{
+    background-color: rgb(155, 255, 151);
+    border: 2px solid rgb(84, 187, 80);
+    border-radius: 35px;
+    font-size: 40px;
+    padding:20px;
+    margin:10px 0px 10px 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+    .types:hover{
+    background-color: rgb(118, 189, 115);
+    transform: scale(1.12);
+    }
+
+
+.shiny{
+    background-color: rgb(153, 194, 255);
+    border: 2px solid rgb(102, 138, 193);
+    border-radius: 35px;
+    font-size: 40px;
+    padding:20px;
+    margin:10px 0px 10px 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+    .shiny:hover{
+    background-color: rgb(115, 154, 210);
+    transform: scale(1.12);
+    }
+
+.gran-pokedex {
+background-image: url('./images/cesped.jpg');
+display: none;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 40px;
+}
+
+.pokemon{
+    background-image: url(./images/fondo3.jpg);
+    text-align: center;
+    width: 140px;
+    height: 180px;
+    margin: 10px;
+    border: 5px ridge rgb(57, 146, 91);
+    border-radius: 14px;
+    box-shadow: 3px 3px 4px 0px rgb(59, 114, 80);
+}
+.pokemon:hover{
+    transform: scale(1.14);
+    box-shadow: 0 0 20px rgb(233, 255, 242);
+}
+
+.pokemon-img{
+    width: 80px;
+    height: 80px;
+
+}
+
+.pokemon-name{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color:white;
+    padding: 5px;
+}
+
+.pokemon-id{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    padding: 5px;
+}
+
+.pokemon-type{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    text-transform: capitalize;
+    padding: 5px;
+}
+.pokemon-img-shiny{
+    display:none;
+}
+
+.input{
+    margin: 40px 0px 0px -14px;
+    background-color: rgb(201, 111, 111);
+    border: rgb(213, 33, 33) 3px groove;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.searchImg{
+    width: 30px;
+    height: 30px;
+}
+
+
+/*crear un div de grande como el movil para darle un background color*/
+
+
+
+
